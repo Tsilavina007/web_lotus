@@ -482,7 +482,11 @@ h6 {
     /* background-color: #009DE1; */
     flex-direction: column;
     bottom: -130px;
+    /* width: 100%; */
 
+    .btn-watch-video {
+      margin-top: 2rem;
+    }
   }
 }
 
