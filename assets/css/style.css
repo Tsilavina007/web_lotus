@@ -812,6 +812,7 @@ section {
   width: calc(100% - 110px);
   background: #28251f;
   color: white;
+  outline: none;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
