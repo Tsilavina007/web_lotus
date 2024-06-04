@@ -691,6 +691,119 @@ section {
 }
 
 
+
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+.why-us .box {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+  background: #1a1814;
+}
+
+.why-us .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--pcolor1);
+}
+
+.why-us .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.why-us .box p {
+  /* color: #aaaaaa; */
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.why-us .box:hover {
+  background: var(--pcolor1);
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
+  color: #fff;
+}
+
+
+.why-us .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff13;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.why-us .icon-box::before {
+  content: "";
+  position: absolute;
+  background: #cbe0fb;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.why-us .icon-box:hover::before {
+  background: var(--pcolor2);
+  top: 0;
+  border-radius: 0px;
+}
+
+.why-us .icon {
+  margin-bottom: 15px;
+}
+
+.why-us .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: var(--pcolor2);
+  transition: all 0.3s ease-in-out;
+}
+
+.why-us .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.why-us .title a {
+  color: #fff;
+}
+
+.why-us .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.why-us .icon-box:hover .title a,
+.why-us .icon-box:hover .description {
+  color: #fff;
+}
+
+.why-us .icon-box:hover .icon i {
+  color: #fff;
+}
+
+
+
 /*--------------------------------------------------------------
 # bungalow
 --------------------------------------------------------------*/
