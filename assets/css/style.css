@@ -964,6 +964,123 @@ section {
   }
 }
 
+
+/*--------------------------------------------------------------
+# tarifs
+--------------------------------------------------------------*/
+.tarifs .box {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  background: #ffffff13;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.tarifs {
+  padding-top: 0;
+}
+.tarifs .container .row .col-lg-4 .box {
+  transition: all 200ms ease-in-out;
+}
+.tarifs .container .row .col-lg-4 .box:hover {
+  transform: scale(1.01);
+}
+
+.tarifs h3 {
+  font-weight: 400;
+  padding: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  
+}
+
+.tarifs h4 {
+  font-size: 24px;
+  color: var(--pcolor1);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+
+.tarifs h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.tarifs ul {
+  padding: 0;
+  list-style: none;
+  color: #fff;
+  text-align: center;
+  line-height: 12px;
+  font-size: 14px;
+}
+
+.tarifs ul li {
+  padding-bottom: 4px;
+}
+
+.tarifs ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.tarifs .btn-wrap {
+  padding: 15px;
+  text-align: center;
+}
+
+.tarifs .btn-book {
+  color: #9c847b;
+  border: 2px solid #e9e3e1;
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 4px;
+  transition: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.tarifs .btn-book:hover {
+  color: var(--pcolor1);
+  border-color: var(--pcolor1);
+}
+
+.tarifs .featured {
+  background:var(--pcolor1);
+  box-shadow: none;
+}
+
+.tarifs .featured h3,
+.tarifs .featured h4,
+.tarifs .featured h4 span,
+.tarifs .featured ul,
+.tarifs .featured ul .na {
+  color: #fff;
+}
+
+.tarifs .featured .btn-wrap {
+  padding: 15px;
+  text-align: center;
+}
+
+.tarifs .featured .btn-book {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.tarifs .featured .btn-book:hover {
+  color: var(--pcolor1);
+  background: #fff;
+  border-color: #fff;
+}
+
+
 /*--------------------------------------------------------------
 # bungalow
 --------------------------------------------------------------*/
