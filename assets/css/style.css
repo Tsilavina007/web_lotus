@@ -1093,7 +1093,7 @@ section {
 # bungalow
 --------------------------------------------------------------*/
 .bungalow  {
-  padding-top: 0;
+  padding-block: 0;
 }
 .bungalow #bungalow-flters {
   padding: 0;
