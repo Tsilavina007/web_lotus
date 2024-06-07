@@ -44,4 +44,7 @@ Ce projet est réalisé dans le cadre du cours de développement web pour l'ann�
 
 ## Remarques
 
+
+.gitignore : Le fichier .gitignore exclut la vidéo de démonstration pour réduire la taille du repository. La vidéo est accessible via le lien Google Drive [ici](https://drive.google.com/file/d/1jZ5v3Y3rvsLukdAAqrGPECQ3wReLrfKK/view?usp=drive_link).
+
 Pour toute question ou suggestion, veuillez nous contacter à l'adresse email suivante : [hei.tsilavina.2@gmail.com](mailto:hei.tsilavina.2@gmail.com).
